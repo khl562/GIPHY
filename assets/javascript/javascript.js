@@ -16,7 +16,7 @@ $(document).ready(function () {
         var animal = $(this).text()
         console.log(animal)
 
-        var queryURL = 'http://api.giphy.com/v1/gifs/search?q=' +
+        var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' +
             animal + '&api_key=mV3ts6f731nMsgNmNQEmFpTCwpGZmirk&limit=5';
 
         $.ajax({
